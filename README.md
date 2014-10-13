@@ -1,7 +1,7 @@
 # Web specialisation - research log D3.JS
 
-**Author: ** Blommaert William
-**Objective: ** Research and log data visualisation using D3.js
+**Author:** Blommaert William
+**Objective:** Research and log data visualisation using D3.js
 
 ## To do
 
@@ -20,3 +20,9 @@
 
 - Out of all the apis looked at, D3 offers the biggest support and community
 - D3 is known for its powerful visualisations, yet with the ease of being lightweight
+ 
+## Sources
+
+- [D3.JS](http://d3js.org)
+- [Sigma.js](http://sigmajs.org)
+- [Processing.js](http://processingjs.org)
