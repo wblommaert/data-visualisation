@@ -31,3 +31,5 @@
 - [D3.JS](http://d3js.org)
 - [Sigma.js](http://sigmajs.org)
 - [Processing.js](http://processingjs.org)
+- [Raphaël](http://raphaeljs.com/)
+- [Protovis](http://mbostock.github.io/protovis)
