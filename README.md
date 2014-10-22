@@ -1,15 +1,20 @@
 # Web specialisation - research log D3.JS
 
-**Author:** Blommaert William
+**Author:** Blommaert William  
 **Objective:** Research and log data visualisation using D3.js
 
 ## To do
 
 - Create a project using D3.JS
 - Combine apis for a greater result
-- Look for conflicts between apis
 
 ## Log entries
+
+**22/10/2014 - Looked into Raphaël and Protovis
+
+- Raphaël is more for vector graphics than data visualisation, it can still be used for the latter however
+- Protovis is the predecessor of D3.js, quite interesting to see how they transitioned
+- So far there have been no conflicts syntaxwise
 
 **07/10/2014 - Looked into more apis**
 
