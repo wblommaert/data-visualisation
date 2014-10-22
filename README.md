@@ -10,7 +10,7 @@
 
 ## Log entries
 
-**22/10/2014 - Looked into Raphaël and Protovis
+**22/10/2014 - Looked into Raphaël and Protovis**
 
 - Raphaël is more for vector graphics than data visualisation, it can still be used for the latter however
 - Protovis is the predecessor of D3.js, quite interesting to see how they transitioned
