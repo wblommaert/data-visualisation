@@ -10,6 +10,11 @@
 
 ## Log entries
 
+**23/10/2014 - Made a basic sample project, trying out some things**
+
+- Created a basic project including static bar chart and svg bar chart
+- Had a look at more indepth features of D3.js, quite impressive
+
 **22/10/2014 - Looked into Raphaël and Protovis**
 
 - Raphaël is more for vector graphics than data visualisation, it can still be used for the latter however
