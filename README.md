@@ -5,7 +5,8 @@
 
 ## To do
 
-- Create a project using D3.JS
+- Make an extensive project using D3.js
+- Make use of indepth features
 - Combine apis for a greater result
 
 ## Log entries
