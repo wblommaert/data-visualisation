@@ -12,7 +12,7 @@
 ## Log entries
 
 
-**14/11/2014 - Had a better look at the syntax D3.js uses **
+**14/11/2014 - Had a better look at the syntax D3.js uses**
 - The way you write code in D3 feels like jQuery: easy, fast and readable
 - Selectors feel exactly like jQuery, it's like they've known each other for years
 
