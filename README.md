@@ -12,6 +12,9 @@
 ## Log entries
 
 
+**14/11/2014 - Had a better look at the syntax D3.js uses **
+- The way you write code in D3 feels like jQuery: easy, fast and readable
+- Selectors feel exactly like jQuery, it's like they've known each other for years
 
 **09/11/2014 - Implementing D3.js compared to the static and svg chart**
 - Playing around with the D3 API to get the same result as js and svg
