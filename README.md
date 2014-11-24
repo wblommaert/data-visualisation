@@ -11,12 +11,18 @@
 
 ## Log entries
 
+**24/11/2014 - Started reading through tutorials**
+
+- Found a very nice resource for tutorials at [Dashing D3.js](https://www.dashingd3js.com/table-of-contents)
+- It pretty much shows the power of D3.js in an easily learned fashion
 
 **14/11/2014 - Had a better look at the syntax D3.js uses**
+
 - The way you write code in D3 feels like jQuery: easy, fast and readable
 - Selectors feel exactly like jQuery, it's like they've known each other for years
 
 **09/11/2014 - Implementing D3.js compared to the static and svg chart**
+
 - Playing around with the D3 API to get the same result as js and svg
 
 **23/10/2014 - Made a basic sample project, trying out some things**
@@ -47,3 +53,4 @@
 - [Processing.js](http://processingjs.org)
 - [Raphaël](http://raphaeljs.com/)
 - [Protovis](http://mbostock.github.io/protovis)
+- [Dashing D3.js](https://www.dashingd3js.com/table-of-contents)
