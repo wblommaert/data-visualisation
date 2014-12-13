@@ -11,6 +11,18 @@
 
 ## Log entries
 
+**13/12/2014 - Had a look at some reviews**
+
+- I came across some library overviews and D3.js was almost always listed as one of the top ones, if not the first
+- Its popularity seems to be thanks to its SVG nature
+- There seem to be projects built on top of D3.js such as [NVD3](http://nvd3.org) and [CrossFilter](http://square.github.io/crossfilter/) 
+
+**11/12/2014 - Found a first downside, maybe not as much to me**
+
+- D3.js is not something that gives you out-of-the-box graphics
+- It is mainly to load data into the browser in a visually appealing way
+- Nothing is pre-made, but that's not really that big an issue
+
 **24/11/2014 - Started reading through tutorials**
 
 - Found a very nice resource for tutorials at [Dashing D3.js](https://www.dashingd3js.com/table-of-contents)
@@ -54,3 +66,8 @@
 - [Raphaël](http://raphaeljs.com/)
 - [Protovis](http://mbostock.github.io/protovis)
 - [Dashing D3.js](https://www.dashingd3js.com/table-of-contents)
+- [Fastcolabs.com article](http://www.fastcolabs.com/3029760/the-five-best-libraries-for-building-data-vizualizations)
+- [Sitepoint.com article](http://www.sitepoint.com/twelve-javascript-libraries-data-visualization/)
+- [DataVisualization.ch overview](http://selection.datavisualization.ch/)
+- [NVD3](http://nvd3.org)
+- [CrossFilter](http://square.github.io/crossfilter/)
