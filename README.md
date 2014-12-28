@@ -11,6 +11,11 @@
 
 ## Log entries
 
+**28/12/2014 - Found another useful tutorial resource**
+
+- [AlignedLeft.com](http://alignedleft.com/tutorials/d3) has some nice tutorials on how to use D3.js
+- It comes in 17 parts, so each section is quite extensive, definitely worth looking at.
+
 **13/12/2014 - Had a look at some reviews**
 
 - I came across some library overviews and D3.js was almost always listed as one of the top ones, if not the first
@@ -71,3 +76,4 @@
 - [DataVisualization.ch overview](http://selection.datavisualization.ch/)
 - [NVD3](http://nvd3.org)
 - [CrossFilter](http://square.github.io/crossfilter/)
+- [AlignedLeft.com](http://alignedleft.com/tutorials/d3)
