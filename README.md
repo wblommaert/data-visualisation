@@ -11,6 +11,11 @@
 
 ## Log entries
 
+**29/12/2014 - Updated and tidied up my repository, started my report**
+
+- Cleaned up my repo a little bit, files are separated better
+- Started writing my report of things so far
+
 **28/12/2014 - Found another useful tutorial resource**
 
 - [AlignedLeft.com](http://alignedleft.com/tutorials/d3) has some nice tutorials on how to use D3.js
