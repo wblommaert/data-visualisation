@@ -80,3 +80,4 @@
 - [NVD3](http://nvd3.org)
 - [CrossFilter](http://square.github.io/crossfilter/)
 - [AlignedLeft.com](http://alignedleft.com/tutorials/d3)
+- [Tweet emotion (Geographic emotions via Twitter)](https://github.com/pubnub/tweet-emotion)
