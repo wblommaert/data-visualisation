@@ -1,0 +1,180 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link type="text/css" rel="stylesheet" href="http://mbostock.github.io/d3/talk/20111018/style.css">
+    <style type="text/css">
+
+
+.node circle {
+  cursor: pointer;
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font-size: 11px;
+}
+
+path.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+    </style>
+  <style type="text/css"></style></head>
+  <body>
+    <div id="body">
+      <div id="footer">
+        d3.layout.tree
+        <div class="hint">click or option-click to expand or collapse</div>
+      </div>
+    <svg width="1280" height="800"><g transform="translate(120,20)"><path class="link" d="M180,422.22222222222223C270,422.22222222222223 270,126.66666666666666 360,126.66666666666666"></path><path class="link" d="M180,422.22222222222223C270,422.22222222222223 270,506.66666666666663 360,506.66666666666663"></path><path class="link" d="M180,422.22222222222223C270,422.22222222222223 270,548.8888888888889 360,548.8888888888889"></path><path class="link" d="M180,422.22222222222223C270,422.22222222222223 270,591.1111111111111 360,591.1111111111111"></path><path class="link" d="M180,422.22222222222223C270,422.22222222222223 270,633.3333333333334 360,633.3333333333334"></path><path class="link" d="M180,422.22222222222223C270,422.22222222222223 270,675.5555555555555 360,675.5555555555555"></path><path class="link" d="M180,422.22222222222223C270,422.22222222222223 270,717.7777777777777 360,717.7777777777777"></path><path class="link" d="M0,232.22222222222223C90,232.22222222222223 90,42.22222222222222 180,42.22222222222222"></path><path class="link" d="M0,232.22222222222223C90,232.22222222222223 90,84.44444444444444 180,84.44444444444444"></path><path class="link" d="M0,232.22222222222223C90,232.22222222222223 90,126.66666666666666 180,126.66666666666666"></path><path class="link" d="M0,232.22222222222223C90,232.22222222222223 90,168.88888888888889 180,168.88888888888889"></path><path class="link" d="M0,232.22222222222223C90,232.22222222222223 90,211.11111111111111 180,211.11111111111111"></path><path class="link" d="M0,232.22222222222223C90,232.22222222222223 90,253.33333333333331 180,253.33333333333331"></path><path class="link" d="M0,232.22222222222223C90,232.22222222222223 90,295.55555555555554 180,295.55555555555554"></path><path class="link" d="M0,232.22222222222223C90,232.22222222222223 90,337.77777777777777 180,337.77777777777777"></path><path class="link" d="M0,232.22222222222223C90,232.22222222222223 90,380 180,380"></path><path class="link" d="M0,232.22222222222223C90,232.22222222222223 90,422.22222222222223 180,422.22222222222223"></path><path class="link" d="M360,126.66666666666666C450,126.66666666666666 450,42.22222222222223 540,42.22222222222223"></path><path class="link" d="M360,126.66666666666666C450,126.66666666666666 450,84.44444444444446 540,84.44444444444446"></path><path class="link" d="M360,126.66666666666666C450,126.66666666666666 450,126.66666666666666 540,126.66666666666666"></path><path class="link" d="M360,126.66666666666666C450,126.66666666666666 450,168.8888888888889 540,168.8888888888889"></path><path class="link" d="M360,126.66666666666666C450,126.66666666666666 450,211.1111111111111 540,211.1111111111111"></path><path class="link" d="M360,506.66666666666663C450,506.66666666666663 450,295.55555555555554 540,295.55555555555554"></path><path class="link" d="M360,506.66666666666663C450,506.66666666666663 450,337.77777777777777 540,337.77777777777777"></path><path class="link" d="M360,506.66666666666663C450,506.66666666666663 450,380 540,380"></path><path class="link" d="M360,506.66666666666663C450,506.66666666666663 450,422.22222222222223 540,422.22222222222223"></path><path class="link" d="M360,506.66666666666663C450,506.66666666666663 450,464.44444444444446 540,464.44444444444446"></path><path class="link" d="M360,506.66666666666663C450,506.66666666666663 450,506.66666666666663 540,506.66666666666663"></path><path class="link" d="M360,506.66666666666663C450,506.66666666666663 450,548.8888888888889 540,548.8888888888889"></path><path class="link" d="M360,506.66666666666663C450,506.66666666666663 450,591.1111111111111 540,591.1111111111111"></path><path class="link" d="M360,506.66666666666663C450,506.66666666666663 450,633.3333333333334 540,633.3333333333334"></path><path class="link" d="M360,506.66666666666663C450,506.66666666666663 450,675.5555555555555 540,675.5555555555555"></path><path class="link" d="M360,506.66666666666663C450,506.66666666666663 450,717.7777777777777 540,717.7777777777777"></path><g class="node" transform="translate(360,717.7777777777777)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">Visualization</text></g><g class="node" transform="translate(360,675.5555555555555)"><circle r="4.5" style="fill: rgb(176, 196, 222);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">operator</text></g><g class="node" transform="translate(360,633.3333333333334)"><circle r="4.5" style="fill: rgb(176, 196, 222);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">legend</text></g><g class="node" transform="translate(360,591.1111111111111)"><circle r="4.5" style="fill: rgb(176, 196, 222);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">events</text></g><g class="node" transform="translate(360,548.8888888888889)"><circle r="4.5" style="fill: rgb(176, 196, 222);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">data</text></g><g class="node" transform="translate(360,506.66666666666663)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">controls</text></g><g class="node" transform="translate(360,126.66666666666666)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">axis</text></g><g class="node" transform="translate(180,422.22222222222223)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">vis</text></g><g class="node" transform="translate(180,380)"><circle r="4.5" style="fill: rgb(176, 196, 222);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">util</text></g><g class="node" transform="translate(180,337.77777777777777)"><circle r="4.5" style="fill: rgb(176, 196, 222);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">scale</text></g><g class="node" transform="translate(180,295.55555555555554)"><circle r="4.5" style="fill: rgb(176, 196, 222);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">query</text></g><g class="node" transform="translate(180,253.33333333333331)"><circle r="4.5" style="fill: rgb(176, 196, 222);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">physics</text></g><g class="node" transform="translate(180,211.11111111111111)"><circle r="4.5" style="fill: rgb(176, 196, 222);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">flex</text></g><g class="node" transform="translate(180,168.88888888888889)"><circle r="4.5" style="fill: rgb(176, 196, 222);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">display</text></g><g class="node" transform="translate(180,126.66666666666666)"><circle r="4.5" style="fill: rgb(176, 196, 222);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">data</text></g><g class="node" transform="translate(180,84.44444444444444)"><circle r="4.5" style="fill: rgb(176, 196, 222);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">animate</text></g><g class="node" transform="translate(180,42.22222222222222)"><circle r="4.5" style="fill: rgb(176, 196, 222);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">analytics</text></g><g class="node" transform="translate(0,232.22222222222223)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="-10" dy=".35em" text-anchor="end" style="fill-opacity: 1;">flare</text></g><g class="node" transform="translate(540,211.1111111111111)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">CartesianAxes</text></g><g class="node" transform="translate(540,168.8888888888889)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">AxisLabel</text></g><g class="node" transform="translate(540,126.66666666666666)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">AxisGridLine</text></g><g class="node" transform="translate(540,84.44444444444446)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">Axis</text></g><g class="node" transform="translate(540,42.22222222222223)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">Axes</text></g><g class="node" transform="translate(540,717.7777777777777)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">TooltipControl</text></g><g class="node" transform="translate(540,675.5555555555555)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">SelectionControl</text></g><g class="node" transform="translate(540,633.3333333333334)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">PanZoomControl</text></g><g class="node" transform="translate(540,591.1111111111111)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">IControl</text></g><g class="node" transform="translate(540,548.8888888888889)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">HoverControl</text></g><g class="node" transform="translate(540,506.66666666666663)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">ExpandControl</text></g><g class="node" transform="translate(540,464.44444444444446)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">DragControl</text></g><g class="node" transform="translate(540,422.22222222222223)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">ControlList</text></g><g class="node" transform="translate(540,380)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">Control</text></g><g class="node" transform="translate(540,337.77777777777777)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">ClickControl</text></g><g class="node" transform="translate(540,295.55555555555554)"><circle r="4.5" style="fill: rgb(255, 255, 255);"></circle><text x="10" dy=".35em" text-anchor="start" style="fill-opacity: 1;">AnchorControl</text></g></g></svg></div>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript">
+
+var m = [20, 120, 20, 120],
+    w = 1280 - m[1] - m[3],
+    h = 800 - m[0] - m[2],
+    i = 0,
+    root;
+
+var tree = d3.layout.tree()
+    .size([h, w]);
+
+var diagonal = d3.svg.diagonal()
+    .projection(function(d) { return [d.y, d.x]; });
+
+var vis = d3.select("#body").append("svg:svg")
+    .attr("width", w + m[1] + m[3])
+    .attr("height", h + m[0] + m[2])
+  .append("svg:g")
+    .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
+
+d3.json("http://mbostock.github.io/d3/talk/20111018/flare.json", function(json) {
+  root = json;
+  root.x0 = h / 2;
+  root.y0 = 0;
+
+  function toggleAll(d) {
+    if (d.children) {
+      d.children.forEach(toggleAll);
+      toggle(d);
+    }
+  }
+
+  // Initialize the display to show a few nodes.
+  root.children.forEach(toggleAll);
+  toggle(root.children[1]);
+  toggle(root.children[1].children[2]);
+  toggle(root.children[9]);
+  toggle(root.children[9].children[0]);
+
+  update(root);
+});
+
+function update(source) {
+  var duration = d3.event && d3.event.altKey ? 5000 : 500;
+
+  // Compute the new tree layout.
+  var nodes = tree.nodes(root).reverse();
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d) { d.y = d.depth * 180; });
+
+  // Update the nodes…
+  var node = vis.selectAll("g.node")
+      .data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+  // Enter any new nodes at the parent's previous position.
+  var nodeEnter = node.enter().append("svg:g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+      .on("click", function(d) { toggle(d); update(d); });
+
+  nodeEnter.append("svg:circle")
+      .attr("r", 1e-6)
+      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+  nodeEnter.append("svg:text")
+      .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
+      .attr("dy", ".35em")
+      .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+      .text(function(d) { return d.name; })
+      .style("fill-opacity", 1e-6);
+
+  // Transition nodes to their new position.
+  var nodeUpdate = node.transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+  nodeUpdate.select("circle")
+      .attr("r", 4.5)
+      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+  nodeUpdate.select("text")
+      .style("fill-opacity", 1);
+
+  // Transition exiting nodes to the parent's new position.
+  var nodeExit = node.exit().transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+      .remove();
+
+  nodeExit.select("circle")
+      .attr("r", 1e-6);
+
+  nodeExit.select("text")
+      .style("fill-opacity", 1e-6);
+
+  // Update the links…
+  var link = vis.selectAll("path.link")
+      .data(tree.links(nodes), function(d) { return d.target.id; });
+
+  // Enter any new links at the parent's previous position.
+  link.enter().insert("svg:path", "g")
+      .attr("class", "link")
+      .attr("d", function(d) {
+        var o = {x: source.x0, y: source.y0};
+        return diagonal({source: o, target: o});
+      })
+    .transition()
+      .duration(duration)
+      .attr("d", diagonal);
+
+  // Transition links to their new position.
+  link.transition()
+      .duration(duration)
+      .attr("d", diagonal);
+
+  // Transition exiting nodes to the parent's new position.
+  link.exit().transition()
+      .duration(duration)
+      .attr("d", function(d) {
+        var o = {x: source.x, y: source.y};
+        return diagonal({source: o, target: o});
+      })
+      .remove();
+
+  // Stash the old positions for transition.
+  nodes.forEach(function(d) {
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+}
+
+// Toggle children.
+function toggle(d) {
+  if (d.children) {
+    d._children = d.children;
+    d.children = null;
+  } else {
+    d.children = d._children;
+    d._children = null;
+  }
+}
+
+    </script>
+  
+
+</body></html>
