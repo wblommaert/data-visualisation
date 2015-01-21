@@ -5,7 +5,6 @@
 
 ## To do
 
-- Finish writing report
 - Create final presentation
 
 ## Log entries
