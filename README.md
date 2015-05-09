@@ -3,10 +3,6 @@
 **Author:** Blommaert William  
 **Objective:** Research and log data visualisation using D3.js
 
-## To do
-
-- Create final presentation
-
 ## Log entries
 
 **29/12/2014 - Updated and tidied up my repository, started my report**
